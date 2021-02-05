@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(walllpaper.jpg) center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    font: italic 1.2em "Fira Sans", serif;
+}
+
+
+/* pensée de maniere responsive grace a bootstrap devra cependant repecter une margin left de 2% */
+
+
+/*  devra contenir la dimension du carousel avec une proportion de 40% par rapport a sa taille d'origine et de maniere responsivve avec un margin auto */
+
+#carousel-appdev {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 50%;
+    height: auto;
+}
+
+
+/* disposition des differents articles ou  contenu du site sur la partie article */
+
+h3 {
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.container h3 {
+    margin: 0 auto;
+    padding: 3%;
+}
+
+.container {
+    padding: 3%;
+    position: relative;
+    font-size: 24px;
+}
+
+@media screen and (max-width :1024px) {
+    #carousel-appdev {
+        width: 80%;
+    }
+}
+
+#valeur {
+    position: relative;
+    margin-left: 30%;
+}
+
+textarea {
+    resize: none;
+}
+
+#formulaire {
+    display: block;
+}
+
+
+/*  contient la page nous contacter  ( le formulaire qu'il contient 
+devra avoir un border lightgrey solid de 1px et un backroundcolor grey ex(255,233,255,0.25)*/
+
+form {
+    max-width: 100%;
+    margin-left: 15%;
+    margin-top: 2%;
+    font-size: small;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 2;
+}
+
+label.inline-label {
+    display: inline-block;
+}
+
+fieldset {
+    border: 1px solid lightgray;
+    background-color: rgba(225, 233, 255, 0.25);
+}
+
+legend {
+    font-style: italic;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+form select,
+form input,
+form textarea {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+}
+
+.container-footer,
+h5,
+h6,
+#paragraphe-footer p {
+    background-color: gainsboro;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+#paragraphe-footer p {
+    font-size: 12px;
+    height: 132px;
+    width: 232px;
+}
